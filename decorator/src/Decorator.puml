@@ -1,0 +1,41 @@
+@startuml
+
+'abstract class AbstractList
+  ''abstract AbstractCollection
+  ''interface List
+  ''interface Collection
+  ''
+  ''List <|-- AbstractList
+  ''Collection <|-- AbstractCollection
+  ''
+  ''Collection <|- List
+  ''AbstractCollection <|- AbstractList
+  ''AbstractList <|-- ArrayList
+  ''
+  ''class ArrayList {
+  ''Object[] elementData
+  ''size()
+  ''}
+  ''
+  ''enum TimeUnit {
+  ''DAYS
+  ''HOURS
+  ''MINUTES
+  ''}
+  abstract class BeDecoratorClass
+
+  BeDecoratorClass <|-- BeDecoratorType1
+  BeDecoratorClass <|-- BeDecoratorType2
+  BeDecoratorClass <|-- BeDecoratorType3
+
+  abstract class DecoratorClass{
+    BeDecoratorClass beDecorator;
+  }
+  BeDecoratorClass <|- DecoratorClass
+  DecoratorClass <|- DecoratorClassType1
+  DecoratorClass <|-- DecoratorClassType2
+  DecoratorClass <|-- DecoratorClassType3
+
+
+
+@enduml
