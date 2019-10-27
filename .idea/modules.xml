@@ -10,8 +10,7 @@
       <module fileurl="file://$PROJECT_DIR$/decorator/decorator.iml" filepath="$PROJECT_DIR$/decorator/decorator.iml" />
       <module fileurl="file://$PROJECT_DIR$/facade/facade.iml" filepath="$PROJECT_DIR$/facade/facade.iml" />
       <module fileurl="file://$PROJECT_DIR$/factory/factory.iml" filepath="$PROJECT_DIR$/factory/factory.iml" />
-      <module fileurl="file://$PROJECT_DIR$/factory/prototype.iml" filepath="$PROJECT_DIR$/factory/prototype.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../DesignMode/prottoType/prottoType.iml" filepath="$PROJECT_DIR$/../DesignMode/prottoType/prottoType.iml" />
+      <module fileurl="file://$PROJECT_DIR$/proxy/proxy.iml" filepath="$PROJECT_DIR$/proxy/proxy.iml" />
     </modules>
   </component>
 </project>
